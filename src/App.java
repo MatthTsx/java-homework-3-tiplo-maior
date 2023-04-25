@@ -23,7 +23,7 @@ public class App {
                     maior = number;
                 }
             }
-            System.out.println(maior);
+            System.out.println(maior*3);
             System.out.println("continuar? n/s");
             if(scan.nextLine().toLowerCase().equals("n")){
                 process = false;
